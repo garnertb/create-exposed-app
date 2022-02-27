@@ -42,7 +42,9 @@ to: package.json
     "build-dts": "tsc --emitDeclarationOnly",
     "build-dts--watch": "npm run build-dts -- --watch --preserveWatchOutput",
     "validate": "run-p --print-label lint test build",
-    "commitlint--all": "npx commitlint --from $(git rev-list --max-parents=0 HEAD) --to HEAD"
+    "commitlint--all": "npx commitlint --from $(git rev-list --max-parents=0 HEAD) --to HEAD",
+    "major-updates": "npx npm-check-updates -u && npm install",
+    "update": "npm update"
   },
   "dependencies": {
     "debug": "^4.3.3",
