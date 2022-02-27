@@ -1,5 +1,5 @@
 {
-  "name": "create-exposed-app",
+  "name": "create-ts-app",
   "version": "9.0.0",
   "description": "App generator with everything exposed for maximum control (powered by TypeScript, ESBuild, Jest, ESLint, GitHub Actions, Prettier, and more)",
   "homepage": "https://github.com/iamturns/create-exposed-app",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
   "bin": {
-    "create-exposed-app": "dist/index.js"
+    "create-ts-app": "dist/index.js"
   },
   "scripts": {
     "dev": "npm run build-js--watch",
